@@ -31,10 +31,7 @@ class TableViewController: UITableViewController {
       
 let state = ListOfAnnoucements(type: "State", announcements: [Announcements(title: "State Announcement", description: "this is a state announcement"), Announcements(title: "State2", description:"Another state")])
 let county = ListOfAnnoucements(type: "County", announcements: [Announcements(title: "County Announcement", description: "this is a County announcement")])
-let city = ListOfAnnoucements(type: "City", announcements: [Announcements(title: "City Announcement", description: "this is a City announcement"), Announcements(title: "City 2", description: "This is second city announcement ")])
-        
-     
-        
+let city = ListOfAnnoucements(type: "City", announcements:[Announcements(title: "City Announcement", description: "this is a City announcement"), Announcements(title: "City 2", description: "This is second city announcement ")])
         
         aArray.append(city)
         aArray.append(county)
