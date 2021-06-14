@@ -443,18 +443,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NrV-nw-7Bt">
-                                <rect key="frame" x="20" y="154" width="374" height="319"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-WM-Jz8">
-                                <rect key="frame" x="36" y="527" width="358" height="240"/>
+                                <rect key="frame" x="20" y="430" width="374" height="337"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="0PP-MD-BOo"/>
+                                    <constraint firstAttribute="height" constant="337" id="0PP-MD-BOo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NrV-nw-7Bt">
+                                <rect key="frame" x="63" y="154" width="304" height="232"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HFb-HF-3me"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -462,13 +462,13 @@
                             <constraint firstItem="oUQ-WM-Jz8" firstAttribute="trailing" secondItem="FYX-2H-E1A" secondAttribute="trailingMargin" id="9Jr-VF-Uvt"/>
                             <constraint firstItem="8hH-uR-ir0" firstAttribute="leading" secondItem="FYX-2H-E1A" secondAttribute="leadingMargin" id="Ntl-7P-YXU"/>
                             <constraint firstItem="HFb-HF-3me" firstAttribute="bottom" secondItem="oUQ-WM-Jz8" secondAttribute="bottom" constant="46" id="OKm-dK-54K"/>
-                            <constraint firstItem="8hH-uR-ir0" firstAttribute="leading" secondItem="NrV-nw-7Bt" secondAttribute="leading" id="Oxr-9S-lke"/>
+                            <constraint firstItem="8hH-uR-ir0" firstAttribute="leading" secondItem="NrV-nw-7Bt" secondAttribute="leading" constant="-43" id="Oxr-9S-lke"/>
                             <constraint firstItem="8hH-uR-ir0" firstAttribute="top" secondItem="HFb-HF-3me" secondAttribute="top" constant="20" id="STT-vy-qHN"/>
                             <constraint firstItem="oUQ-WM-Jz8" firstAttribute="trailing" secondItem="8hH-uR-ir0" secondAttribute="trailing" id="UJm-9L-hDd"/>
                             <constraint firstItem="NrV-nw-7Bt" firstAttribute="top" secondItem="8hH-uR-ir0" secondAttribute="bottom" constant="7.5" id="Xe6-qQ-EjF"/>
-                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="trailing" secondItem="NrV-nw-7Bt" secondAttribute="trailing" id="gWZ-Vm-jYh"/>
-                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="top" secondItem="NrV-nw-7Bt" secondAttribute="bottom" constant="54" id="iA9-ZB-xLl"/>
-                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="leading" secondItem="HFb-HF-3me" secondAttribute="leading" constant="36" id="lk5-sC-oL0"/>
+                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="trailing" secondItem="NrV-nw-7Bt" secondAttribute="trailing" constant="27" id="gWZ-Vm-jYh"/>
+                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="top" secondItem="NrV-nw-7Bt" secondAttribute="bottom" constant="44" id="iA9-ZB-xLl"/>
+                            <constraint firstItem="oUQ-WM-Jz8" firstAttribute="leading" secondItem="HFb-HF-3me" secondAttribute="leading" constant="20" id="lk5-sC-oL0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hQ1-8u-9vJ"/>
