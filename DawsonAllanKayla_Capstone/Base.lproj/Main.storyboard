@@ -192,7 +192,7 @@
             </objects>
             <point key="canvasLocation" x="1884.057971014493" y="-214.28571428571428"/>
         </scene>
-        <!--Item-->
+        <!--Announcements-->
         <scene sceneID="lKk-5F-gIh">
             <objects>
                 <viewController id="r1Z-Ub-HEh" sceneMemberID="viewController">
@@ -218,6 +218,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqG-kP-Fri">
                                         <rect key="frame" x="0.0" y="75" width="48" height="30"/>
                                         <state key="normal" title="Logout"/>
+                                        <connections>
+                                            <segue destination="o2c-2w-Rb8" kind="unwind" unwindAction="unwindToHome:" id="KFm-cE-1KZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -314,9 +317,10 @@
                             <constraint firstItem="B4G-o5-Y8G" firstAttribute="bottom" secondItem="MQV-Pf-Ch2" secondAttribute="bottom" constant="302" id="zTh-w3-apU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="person.crop.circle" catalog="system" id="7r3-iP-Aq8"/>
+                    <tabBarItem key="tabBarItem" title="Announcements" image="person.crop.circle" catalog="system" id="7r3-iP-Aq8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVJ-4b-qRJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="o2c-2w-Rb8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4111.594202898551" y="-455.35714285714283"/>
         </scene>
@@ -412,11 +416,11 @@
             </objects>
             <point key="canvasLocation" x="6212" y="149"/>
         </scene>
-        <!--Item-->
+        <!--Programs-->
         <scene sceneID="Go6-pH-OsQ">
             <objects>
                 <navigationController id="Kct-bZ-RD6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="map" catalog="system" id="yof-3S-gft"/>
+                    <tabBarItem key="tabBarItem" title="Programs" image="map" catalog="system" id="yof-3S-gft"/>
                     <navigationItem key="navigationItem" id="hug-a9-xRF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XB1-f7-l94">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

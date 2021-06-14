@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D67C2B2677837200CBE7D6 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D67C2A2677837200CBE7D6 /* AViewController.swift */; };
 		32F15BCD2632FED200C42814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F15BCC2632FED200C42814 /* AppDelegate.swift */; };
 		32F15BCF2632FED200C42814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F15BCE2632FED200C42814 /* SceneDelegate.swift */; };
 		32F15BD12632FED200C42814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F15BD02632FED200C42814 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32D67C2A2677837200CBE7D6 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		32F15BC92632FED200C42814 /* DawsonAllanKayla_Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawsonAllanKayla_Capstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F15BCC2632FED200C42814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32F15BCE2632FED200C42814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				32F15BCE2632FED200C42814 /* SceneDelegate.swift */,
 				32F15BD02632FED200C42814 /* ViewController.swift */,
 				32F15BD22632FED200C42814 /* Main.storyboard */,
+				32D67C2A2677837200CBE7D6 /* AViewController.swift */,
 				5B92EA11266A65FF00505669 /* TableDetailsVC.swift */,
 				5B92EA0D266A61EF00505669 /* TableViewController.swift */,
 				32F15BD52632FED400C42814 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				32F15BCD2632FED200C42814 /* AppDelegate.swift in Sources */,
 				32F15BCF2632FED200C42814 /* SceneDelegate.swift in Sources */,
 				5B92EA0E266A61EF00505669 /* TableViewController.swift in Sources */,
+				32D67C2B2677837200CBE7D6 /* AViewController.swift in Sources */,
 				5B92EA12266A65FF00505669 /* TableDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
