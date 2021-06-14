@@ -12,6 +12,7 @@ class TableDetailsVC: UIViewController {
     @IBOutlet weak var aDescription: UILabel!
     @IBOutlet weak var announcements: UILabel!
     
+    @IBOutlet weak var aImage: UIImageView!
     var annouce: ListOfAnnoucements!
     var indexpath:Int = 0;
     override func viewDidLoad() {
@@ -21,6 +22,9 @@ class TableDetailsVC: UIViewController {
         
         announcements.text = "\((annouce.type))"
         aDescription.text = "\((annouce.announcements[indexpath].description))"
+        
+        aImage.image = ((annouce.announcements[indexpath].image))
+        
     }
 
     override func didReceiveMemoryWarning() {

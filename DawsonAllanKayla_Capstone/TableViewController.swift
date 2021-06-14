@@ -17,6 +17,7 @@ struct ListOfAnnoucements{
 struct Announcements {
     var title: String
     var description: String
+    var image: UIImage
 }
 
 
@@ -29,9 +30,9 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       
-let state = ListOfAnnoucements(type: "State", announcements: [Announcements(title: "State Announcement", description: "this is a state announcement"), Announcements(title: "State2", description:"Another state")])
-let county = ListOfAnnoucements(type: "County", announcements: [Announcements(title: "County Announcement", description: "this is a County announcement")])
-let city = ListOfAnnoucements(type: "City", announcements:[Announcements(title: "City Announcement", description: "this is a City announcement"), Announcements(title: "City 2", description: "This is second city announcement ")])
+        let state = ListOfAnnoucements(type: "State", announcements: [Announcements(title: "State Announcement", description: "this is a state announcement", image: #imageLiteral(resourceName: "IMG_2374")), Announcements(title: "State2", description:"Another state", image: #imageLiteral(resourceName: "1024"))])
+        let county = ListOfAnnoucements(type: "County", announcements: [Announcements(title: "County Announcement", description: "this is a County announcement", image: #imageLiteral(resourceName: "IMG_2374"))])
+        let city = ListOfAnnoucements(type: "City", announcements:[Announcements(title: "City Announcement", description: "this is a City announcement", image: #imageLiteral(resourceName: "1024")), Announcements(title: "City 2", description: "This is second city announcement ", image: #imageLiteral(resourceName: "makoko-map"))])
         
         aArray.append(city)
         aArray.append(county)
