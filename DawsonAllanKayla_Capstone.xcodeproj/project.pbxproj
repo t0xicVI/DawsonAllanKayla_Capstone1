@@ -16,6 +16,8 @@
 		32F15BD92632FED400C42814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F15BD72632FED400C42814 /* LaunchScreen.storyboard */; };
 		5B92EA0E266A61EF00505669 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92EA0D266A61EF00505669 /* TableViewController.swift */; };
 		5B92EA12266A65FF00505669 /* TableDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92EA11266A65FF00505669 /* TableDetailsVC.swift */; };
+		5BA424782677A086008214F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA424772677A086008214F3 /* LoginViewController.swift */; };
+		5BCF5E442677AEB900E256EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF5E432677AEB900E256EB /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		32F15BDA2632FED400C42814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B92EA0D266A61EF00505669 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		5B92EA11266A65FF00505669 /* TableDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetailsVC.swift; sourceTree = "<group>"; };
+		5BA424772677A086008214F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BCF5E432677AEB900E256EB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				32F15BCE2632FED200C42814 /* SceneDelegate.swift */,
 				32F15BD02632FED200C42814 /* ViewController.swift */,
 				32F15BD22632FED200C42814 /* Main.storyboard */,
+				5BA424772677A086008214F3 /* LoginViewController.swift */,
+				5BCF5E432677AEB900E256EB /* SignUpViewController.swift */,
 				32D67C2A2677837200CBE7D6 /* AViewController.swift */,
 				5B92EA11266A65FF00505669 /* TableDetailsVC.swift */,
 				5B92EA0D266A61EF00505669 /* TableViewController.swift */,
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA424782677A086008214F3 /* LoginViewController.swift in Sources */,
 				32F15BD12632FED200C42814 /* ViewController.swift in Sources */,
+				5BCF5E442677AEB900E256EB /* SignUpViewController.swift in Sources */,
 				32F15BCD2632FED200C42814 /* AppDelegate.swift in Sources */,
 				32F15BCF2632FED200C42814 /* SceneDelegate.swift in Sources */,
 				5B92EA0E266A61EF00505669 /* TableViewController.swift in Sources */,
@@ -299,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = DawsonAllanKayla_Capstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = DawsonAllanKayla_Capstone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
