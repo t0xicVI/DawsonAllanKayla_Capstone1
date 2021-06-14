@@ -30,13 +30,15 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       
-        let state = ListOfAnnoucements(type: "State", announcements: [Announcements(title: "State Announcement", description: "this is a state announcement", image: #imageLiteral(resourceName: "IMG_2374")), Announcements(title: "State2", description:"Another state", image: #imageLiteral(resourceName: "1024"))])
-        let county = ListOfAnnoucements(type: "County", announcements: [Announcements(title: "County Announcement", description: "this is a County announcement", image: #imageLiteral(resourceName: "IMG_2374"))])
-        let city = ListOfAnnoucements(type: "City", announcements:[Announcements(title: "City Announcement", description: "this is a City announcement", image: #imageLiteral(resourceName: "1024")), Announcements(title: "City 2", description: "This is second city announcement ", image: #imageLiteral(resourceName: "makoko-map"))])
+        let allYear = ListOfAnnoucements(type: "All Year", announcements: [Announcements(title: "Clothing Voucher Program", description: "If someone was in need of clothes, we would help. The mission was to provide clothing to a greater number of homeless community members. With the Clothing Voucher Program, eligible people could receive clothing absolutely free.\n \nVisit:http://seedsoffaithministries.org/new-beginnings/", image: #imageLiteral(resourceName: "clothes"))])
         
-        aArray.append(city)
-        aArray.append(county)
-        aArray.append(state)
+        let seasonal = ListOfAnnoucements(type: "Seasonal", announcements: [Announcements(title: "Angel Tree Program (October-December)", description: "Did you know that Seeds of Faith was able to help provide Christmas presents to more than 300 families in our community? Children don’t choose to live in poverty. They are not responsible for their family’s reduced circumstances, yet they must live their lives each day in environments most of us would find appalling and unbearable. Seeds of Faith’s Angel Tree Program attempts to provide much needed clothing items as well as wished-for toys to our community’s neediest kids. Applications are available in late October.\n \nPlease call 211 or visit: www.toysfortots.org to “Request a Toy”", image: #imageLiteral(resourceName: "ToysForTotsLogo"))])
+
+                                    
+        aArray.append(allYear)
+        
+        aArray.append(seasonal)
+        
     
         tableAnnouncements.dataSource = self
         tableAnnouncements.delegate = self

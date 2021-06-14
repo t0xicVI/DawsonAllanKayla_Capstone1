@@ -20,7 +20,7 @@ class TableDetailsVC: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        announcements.text = "\((annouce.type))"
+        announcements.text = "\((annouce.announcements[indexpath].title))"
         aDescription.text = "\((annouce.announcements[indexpath].description))"
         
         aImage.image = ((annouce.announcements[indexpath].image))
