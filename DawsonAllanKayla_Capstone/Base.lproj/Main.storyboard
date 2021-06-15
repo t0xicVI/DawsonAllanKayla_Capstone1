@@ -268,7 +268,7 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="b8y-sc-XIh" firstAttribute="leading" secondItem="mN5-Fz-uQR" secondAttribute="leading" constant="20" id="Dkv-l8-atY"/>
-                                                    <constraint firstItem="aKg-Gc-Kax" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mN5-Fz-uQR" secondAttribute="leading" symbolic="YES" id="Ov0-dV-2mP"/>
+                                                    <constraint firstItem="aKg-Gc-Kax" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mN5-Fz-uQR" secondAttribute="leading" constant="20" symbolic="YES" id="Ov0-dV-2mP"/>
                                                     <constraint firstItem="aKg-Gc-Kax" firstAttribute="top" secondItem="b8y-sc-XIh" secondAttribute="bottom" constant="5.5" id="UuD-Pj-vra"/>
                                                     <constraint firstAttribute="bottom" secondItem="aKg-Gc-Kax" secondAttribute="bottom" constant="16.5" id="brf-k5-EkB"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b8y-sc-XIh" secondAttribute="trailing" symbolic="YES" id="h3T-Sm-Sfs"/>
@@ -285,7 +285,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Announcements at the moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJw-z6-kmI">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free vaccinations at all CVS's!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJw-z6-kmI">
                                                         <rect key="frame" x="50" y="50" width="274" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -312,7 +312,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Announcements at the moment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-co-PFM">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free food drive at city hall!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-co-PFM">
                                                         <rect key="frame" x="50" y="50" width="274" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -476,11 +476,11 @@
             </objects>
             <point key="canvasLocation" x="7121.739130434783" y="148.66071428571428"/>
         </scene>
-        <!--Programs-->
+        <!--Opportunities-->
         <scene sceneID="Go6-pH-OsQ">
             <objects>
                 <navigationController id="Kct-bZ-RD6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Programs" image="map" catalog="system" id="yof-3S-gft"/>
+                    <tabBarItem key="tabBarItem" title="Opportunities" image="map" catalog="system" id="yof-3S-gft"/>
                     <navigationItem key="navigationItem" id="hug-a9-xRF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XB1-f7-l94">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
